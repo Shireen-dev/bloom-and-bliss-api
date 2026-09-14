@@ -1,0 +1,370 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Rose Reverie",
+      "price": 54.99,
+      "category": "Romantic",
+      "tagline": "Blush garden roses, hand-tied",
+      "description": "A cloud of blush and cream garden roses gathered close, finished with a trail of trailing eucalyptus.",
+      "flowers": [
+        "Garden roses",
+        "Spray roses",
+        "Eucalyptus",
+        "Wax flower"
+      ],
+      "stemCount": "18 stems",
+      "size": "Medium, 14\" diameter",
+      "image": "https://images.unsplash.com/photo-1503513883989-25ef8b2f1a53?w=800&q=80&auto=format&fit=crop"
+    },
+    {
+      "id": 2,
+      "name": "Sunlit Meadow",
+      "price": 42.99,
+      "category": "Bright",
+      "tagline": "Sunflowers with wild meadow grasses",
+      "description": "Big, open-faced sunflowers mixed with daisies and loose meadow grasses.",
+      "flowers": [
+        "Sunflowers",
+        "Chamomile daisies",
+        "Wheat grass",
+        "Solidago"
+      ],
+      "stemCount": "14 stems",
+      "size": "Large, 16\" diameter",
+      "image": "https://images.unsplash.com/photo-1652175450325-00966ffd4551?w=800&q=80&auto=format&fit=crop"
+    },
+    {
+      "id": 3,
+      "name": "Velvet Peony",
+      "price": 68.99,
+      "category": "Luxury",
+      "tagline": "Burgundy peonies, deeply layered",
+      "description": "Full, ruffled peonies in the deepest burgundy, layered with garnet ranunculus and dark plum foliage.",
+      "flowers": [
+        "Peonies",
+        "Ranunculus",
+        "Plum foliage",
+        "Astrantia"
+      ],
+      "stemCount": "16 stems",
+      "size": "Medium, 15\" diameter",
+      "image": "https://images.unsplash.com/photo-1498668315031-d4f9c7697fb1?w=800&q=80&auto=format&fit=crop"
+    },
+    {
+      "id": 4,
+      "name": "Ivory Elegance",
+      "price": 59.99,
+      "category": "Luxury",
+      "tagline": "White lilies and silver eucalyptus",
+      "description": "Crisp white lilies and roses set against silvery eucalyptus for a bouquet that reads clean and formal.",
+      "flowers": [
+        "Casablanca lilies",
+        "White roses",
+        "Silver eucalyptus",
+        "Lisianthus"
+      ],
+      "stemCount": "15 stems",
+      "size": "Medium, 14\" diameter",
+      "image": "https://images.unsplash.com/photo-1484676681417-64a0ea3475fd?w=800&q=80&auto=format&fit=crop"
+    },
+    {
+      "id": 5,
+      "name": "Lavender Dream",
+      "price": 46.99,
+      "category": "Romantic",
+      "tagline": "Lavender and violet stock, softly scented",
+      "description": "Fragrant lavender and violet stock gathered with dusty miller for texture.",
+      "flowers": [
+        "Lavender",
+        "Stock",
+        "Dusty miller",
+        "Statice"
+      ],
+      "stemCount": "20 stems",
+      "size": "Small-Medium, 12\" diameter",
+      "image": "https://images.unsplash.com/photo-1639107725072-8dca6a760c08?w=800&q=80&auto=format&fit=crop"
+    },
+    {
+      "id": 6,
+      "name": "Citrus Bloom",
+      "price": 49.99,
+      "category": "Bright",
+      "tagline": "Orange ranunculus and yellow tulips",
+      "description": "A zesty mix of orange ranunculus, yellow tulips, and coral spray roses.",
+      "flowers": [
+        "Ranunculus",
+        "Tulips",
+        "Spray roses",
+        "Ruscus"
+      ],
+      "stemCount": "17 stems",
+      "size": "Medium, 14\" diameter",
+      "image": "https://images.unsplash.com/photo-1761086555468-10a097b6ad6b?w=800&q=80&auto=format&fit=crop"
+    },
+    {
+      "id": 7,
+      "name": "Tulip Whisper",
+      "price": 39.99,
+      "category": "Romantic",
+      "tagline": "Pale pink tulips, gathered close",
+      "description": "A dense, rounded cluster of pale pink tulips - simple, springlike, and quietly romantic.",
+      "flowers": [
+        "Pink tulips",
+        "Ruscus",
+        "Waxflower"
+      ],
+      "stemCount": "24 stems",
+      "size": "Medium, 13\" diameter",
+      "image": "https://images.unsplash.com/photo-1611853329255-2d63adb29054?w=800&q=80&auto=format&fit=crop"
+    },
+    {
+      "id": 8,
+      "name": "Wildflower Meadow",
+      "price": 44.99,
+      "category": "Bright",
+      "tagline": "A loose, rainbow field-picked mix",
+      "description": "An unstructured, joyful mix of field flowers in every color.",
+      "flowers": [
+        "Mixed wildflowers",
+        "Daisies",
+        "Statice",
+        "Grasses"
+      ],
+      "stemCount": "22 stems",
+      "size": "Large, 15\" diameter",
+      "image": "https://images.unsplash.com/photo-1526047932273-341f2a7631f9?w=800&q=80&auto=format&fit=crop"
+    },
+    {
+      "id": 9,
+      "name": "Orchid Elegance",
+      "price": 64.99,
+      "category": "Exotic",
+      "tagline": "Purple moth orchids, architectural and clean",
+      "description": "Sculptural purple orchid stems arranged for maximum drama with minimal fuss.",
+      "flowers": [
+        "Phalaenopsis orchids",
+        "Monstera leaf",
+        "Bear grass"
+      ],
+      "stemCount": "8 stems",
+      "size": "Medium, 14\" diameter",
+      "image": "https://images.unsplash.com/photo-1561831220-cc44b32786ca?w=800&q=80&auto=format&fit=crop"
+    },
+    {
+      "id": 10,
+      "name": "Daisy Delight",
+      "price": 34.99,
+      "category": "Pastel",
+      "tagline": "Classic white daisies, sunny centers",
+      "description": "Simple, cheerful white daisies bundled loosely.",
+      "flowers": [
+        "Shasta daisies",
+        "Solidago",
+        "Fern"
+      ],
+      "stemCount": "20 stems",
+      "size": "Medium, 13\" diameter",
+      "image": "https://images.unsplash.com/photo-1705052578171-b3299c338cb8?w=800&q=80&auto=format&fit=crop"
+    },
+    {
+      "id": 11,
+      "name": "Hydrangea Hug",
+      "price": 58.99,
+      "category": "Pastel",
+      "tagline": "Full blue-white hydrangea blooms",
+      "description": "A handful of oversized hydrangea heads, soft blue fading to cream.",
+      "flowers": [
+        "Hydrangea",
+        "Eucalyptus",
+        "Ranunculus"
+      ],
+      "stemCount": "6 stems",
+      "size": "Large, 16\" diameter",
+      "image": "https://images.unsplash.com/photo-1496257849330-09864b929d10?w=800&q=80&auto=format&fit=crop"
+    },
+    {
+      "id": 12,
+      "name": "Carnation Charm",
+      "price": 32.99,
+      "category": "Romantic",
+      "tagline": "Ruffled pink carnations, budget-friendly",
+      "description": "Ruffled pink carnations packed close for a full, long-lasting bouquet.",
+      "flowers": [
+        "Carnations",
+        "Spray carnations",
+        "Seeded eucalyptus"
+      ],
+      "stemCount": "20 stems",
+      "size": "Medium, 13\" diameter",
+      "image": "https://images.unsplash.com/photo-1777834072769-65d5bec2186c?w=800&q=80&auto=format&fit=crop"
+    },
+    {
+      "id": 13,
+      "name": "Chrysanthemum Glow",
+      "price": 41.99,
+      "category": "Bright",
+      "tagline": "Pompon mums in warm autumn tones",
+      "description": "Full, textured chrysanthemum blooms in warm cream and gold.",
+      "flowers": [
+        "Chrysanthemums",
+        "Solidago",
+        "Ruscus"
+      ],
+      "stemCount": "15 stems",
+      "size": "Medium, 14\" diameter",
+      "image": "https://images.unsplash.com/photo-1713494500139-a0d182b60cb8?w=800&q=80&auto=format&fit=crop"
+    },
+    {
+      "id": 14,
+      "name": "Ranunculus Romance",
+      "price": 52.99,
+      "category": "Romantic",
+      "tagline": "Layered orange ranunculus, ruffled petals",
+      "description": "Ranunculus in warm coral and orange, prized for their tightly layered petals.",
+      "flowers": [
+        "Ranunculus",
+        "Spray roses",
+        "Eucalyptus"
+      ],
+      "stemCount": "16 stems",
+      "size": "Medium, 13\" diameter",
+      "image": "https://images.unsplash.com/photo-1767549002980-0f92ecbd1546?w=800&q=80&auto=format&fit=crop"
+    },
+    {
+      "id": 15,
+      "name": "Gerbera Joy",
+      "price": 36.99,
+      "category": "Bright",
+      "tagline": "Bold red and yellow gerbera daisies",
+      "description": "Big, bold gerbera daisy heads in punchy red and yellow.",
+      "flowers": [
+        "Gerbera daisies",
+        "Solidago",
+        "Bear grass"
+      ],
+      "stemCount": "12 stems",
+      "size": "Medium, 14\" diameter",
+      "image": "https://images.unsplash.com/photo-1586786481995-671831c63e06?w=800&q=80&auto=format&fit=crop"
+    },
+    {
+      "id": 16,
+      "name": "Anemone Whisper",
+      "price": 47.99,
+      "category": "Pastel",
+      "tagline": "White anemones with dark centers",
+      "description": "Delicate white anemones with striking dark centers, arranged loose and airy.",
+      "flowers": [
+        "Anemones",
+        "Ranunculus",
+        "Fern"
+      ],
+      "stemCount": "14 stems",
+      "size": "Small-Medium, 12\" diameter",
+      "image": "https://images.unsplash.com/photo-1572211281422-16572f13284b?w=800&q=80&auto=format&fit=crop"
+    },
+    {
+      "id": 17,
+      "name": "Iris Twilight",
+      "price": 45.99,
+      "category": "Exotic",
+      "tagline": "Deep purple irises, structured and bold",
+      "description": "Tall, richly colored iris stems with a clean architectural shape.",
+      "flowers": [
+        "Irises",
+        "Bear grass",
+        "Seeded eucalyptus"
+      ],
+      "stemCount": "12 stems",
+      "size": "Medium, 15\" diameter",
+      "image": "https://images.unsplash.com/photo-1557682226-0268c8a5d586?w=800&q=80&auto=format&fit=crop"
+    },
+    {
+      "id": 18,
+      "name": "Protea Wild",
+      "price": 72.99,
+      "category": "Exotic",
+      "tagline": "South African protea, showstopping and rare",
+      "description": "A rare, exotic protea bloom paired with native greenery.",
+      "flowers": [
+        "King protea",
+        "Leucadendron",
+        "Native greenery"
+      ],
+      "stemCount": "5 stems",
+      "size": "Large, 16\" diameter",
+      "image": "https://images.unsplash.com/photo-1617255441321-602f4eb108d9?w=800&q=80&auto=format&fit=crop"
+    },
+    {
+      "id": 19,
+      "name": "Dahlia Delight",
+      "price": 66.99,
+      "category": "Luxury",
+      "tagline": "Dinner-plate dahlias in blush pink",
+      "description": "Oversized 'dinner plate' dahlias in soft pink, each bloom a showpiece on its own.",
+      "flowers": [
+        "Dahlias",
+        "Garden roses",
+        "Eucalyptus"
+      ],
+      "stemCount": "10 stems",
+      "size": "Large, 15\" diameter",
+      "image": "https://images.unsplash.com/photo-1541093113199-a2e9d84e903f?w=800&q=80&auto=format&fit=crop"
+    },
+    {
+      "id": 20,
+      "name": "Baby's Breath Cloud",
+      "price": 37.99,
+      "category": "Pastel",
+      "tagline": "Yellow roses in a cloud of baby's breath",
+      "description": "Soft yellow roses nestled in a full cloud of baby's breath.",
+      "flowers": [
+        "Roses",
+        "Baby's breath",
+        "Ruscus"
+      ],
+      "stemCount": "18 stems",
+      "size": "Medium, 14\" diameter",
+      "image": "https://images.unsplash.com/photo-1680518349836-8beb866b0b9a?w=800&q=80&auto=format&fit=crop"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "shireen",
+      "email": "shireen@gmail.com",
+      "passwordHash": "$2a$10$lhnF4XbU0tg9B7RosWI56.1PjqKx2PfDzOovMqQ7DfM2RFDQ6QSgi"
+    }
+  ],
+  "carts": {
+    "1": []
+  },
+  "orders": [
+    {
+      "id": 1,
+      "userId": 1,
+      "items": [
+        {
+          "productId": 1,
+          "name": "Rose Reverie",
+          "price": 54.99,
+          "quantity": 1,
+          "subtotal": 54.99
+        }
+      ],
+      "total": 54.99,
+      "shipping": {
+        "name": "shireen",
+        "address": "hubli",
+        "city": "hubli",
+        "zip": "580020",
+        "phone": "9538108583"
+      },
+      "status": "placed",
+      "createdAt": "2026-09-14T00:44:59.881Z"
+    }
+  ],
+  "nextProductId": 21,
+  "nextUserId": 2,
+  "nextOrderId": 2
+}
