@@ -1,0 +1,57 @@
+PS C:\Users\Samreen\OneDrive\Desktop\bloom-and-bliss-api> npm test -- --verbose
+
+> bloom-and-bliss-api@1.0.0 test
+> jest --runInBand --verbose
+
+ PASS  tests/edge-cases.test.js
+  Auth API — Edge Cases
+    √ POST /api/auth/register rejects missing email (74 ms)
+    √ POST /api/auth/register rejects missing password (9 ms)
+    √ POST /api/auth/login succeeds with correct credentials (259 ms)
+    √ POST /api/auth/login rejects wrong password (112 ms)
+    √ POST /api/auth/login rejects unknown email (5 ms)
+  Products API — Edge Cases
+    √ GET /api/products returns an array of products (6 ms)
+    √ GET /api/products/:id returns 404 for a non-existent product (8 ms)
+  Cart API — Authorization Edge Cases
+    √ GET /api/cart without a token is rejected (7 ms)
+    √ GET /api/cart with an invalid token is rejected (9 ms)
+    √ GET /api/cart with a valid token succeeds (8 ms)
+  Orders API — Authorization Edge Cases
+    √ GET /api/orders without a token is rejected (4 ms)
+    √ POST /api/orders without a token is rejected (6 ms)
+
+ PASS  tests/auth.test.js
+  Auth API
+    √ POST /api/auth/register creates a new account (174 ms)
+    √ POST /api/auth/register rejects a duplicate email (7 ms)
+    √ POST /api/auth/register rejects a short password (11 ms)
+    √ POST /api/auth/login succeeds with correct credentials (154 ms)
+    √ POST /api/auth/login fails with wrong password (131 ms)
+    √ GET /api/auth/me requires a token (6 ms)
+
+ PASS  tests/cart-and-orders.test.js
+  Cart API
+    √ GET /api/cart starts empty for a new user (7 ms)
+    √ POST /api/cart adds an item (9 ms)
+    √ PUT /api/cart/:productId updates quantity (9 ms)
+    √ DELETE /api/cart/:productId removes an item (8 ms)
+  Orders API
+    √ POST /api/orders fails on an empty cart (9 ms)
+    √ POST /api/orders succeeds after adding an item, and clears the cart (26 ms)
+    √ GET /api/orders returns the user's order history (6 ms)
+
+ PASS  tests/products.test.js
+  Products API
+    √ GET /api/products returns the full catalog (7 ms)
+    √ GET /api/products?category=Romantic filters results (9 ms)
+    √ GET /api/products/:id returns a single product (7 ms)
+    √ GET /api/products/:id returns 404 for a missing product (5 ms)
+    √ POST /api/products is rejected without a token (14 ms)
+
+Test Suites: 4 passed, 4 total
+Tests:       30 passed, 30 total
+Snapshots:   0 total
+Time:        4.216 s
+Ran all test suites.
+PS C:\Users\Samreen\OneDrive\Desktop\bloom-and-bliss-api> 

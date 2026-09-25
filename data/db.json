@@ -334,10 +334,115 @@
       "name": "shireen",
       "email": "shireen@gmail.com",
       "passwordHash": "$2a$10$lhnF4XbU0tg9B7RosWI56.1PjqKx2PfDzOovMqQ7DfM2RFDQ6QSgi"
+    },
+    {
+      "id": 2,
+      "name": "samreen",
+      "email": "samreenameer00@gmail.com",
+      "passwordHash": "$2a$10$5AwTiwGOztaTzJoRxAU9m.jRKeyfg0Ko7.APjXqoP0g7blYRT13wa"
+    },
+    {
+      "id": 3,
+      "name": "Cart Tester",
+      "email": "cart.tester.1790254398461@example.com",
+      "passwordHash": "$2a$10$w1Z3hrZjhBjBisa.08jzoOHENkgW9g.ASz/hbyKq5ZtJlGs4ORqNe"
+    },
+    {
+      "id": 4,
+      "name": "Test User",
+      "email": "test.user.1790254398799@example.com",
+      "passwordHash": "$2a$10$w/AtDI0PjchrdSF6DwU5p.HUFkrnZkw7.4s0oD49KMOixpzaYZlwe"
+    },
+    {
+      "id": 5,
+      "name": "Edge Case User",
+      "email": "edge.case.1790254664624@example.com",
+      "passwordHash": "$2a$10$zSLpT2xtj5ijLPe41QebmeosG32ooADJlWXBi8x9N9zcN2oxz2Z42"
+    },
+    {
+      "id": 6,
+      "name": "Cart Tester",
+      "email": "cart.tester.1790254665490@example.com",
+      "passwordHash": "$2a$10$di5Ds1iN7PUMy9h1NkdQhuXc2nVBMYyJk89kIlHrNQnZAqwqO4xSu"
+    },
+    {
+      "id": 7,
+      "name": "Test User",
+      "email": "test.user.1790254666031@example.com",
+      "passwordHash": "$2a$10$UwCY4uvS9ON5Ea.TXNOjBe7Pau7Hur/Iy6UBUjm5/7r1qezAekObi"
+    },
+    {
+      "id": 8,
+      "name": "Edge Case User",
+      "email": "edge.case.1790255107398@example.com",
+      "passwordHash": "$2a$10$GHq3KOfaa5barM.rn1oBH.N..Ma1XUs8tpod.a.cALrcZiTQKlJv6"
+    },
+    {
+      "id": 9,
+      "name": "Test User",
+      "email": "test.user.1790255107922@example.com",
+      "passwordHash": "$2a$10$bwPn0qvphFyAPhPgrofcFe8iB74gfMvpTh4SgdlaJruC1ys1T2rhi"
+    },
+    {
+      "id": 10,
+      "name": "Cart Tester",
+      "email": "cart.tester.1790255108311@example.com",
+      "passwordHash": "$2a$10$iyheIeJuFRzbd09UcAZlt.bEgcEaMKoNUT35GXaLfar.cwJsYnr0e"
+    },
+    {
+      "id": 11,
+      "name": "Edge Case User",
+      "email": "edge.case.1790315712167@example.com",
+      "passwordHash": "$2a$10$qJX2X/T.SEJqugeyU8Zlse3u/CcaOhRD1ZQ55oYcqgSMWDp6JoWyy"
+    },
+    {
+      "id": 12,
+      "name": "Test User",
+      "email": "test.user.1790315712854@example.com",
+      "passwordHash": "$2a$10$jSZ/PGx69kj3fc2wh3gzEuTsyh.YXy1FZ7EHOy4y0HRZ.6.iqxaY."
+    },
+    {
+      "id": 13,
+      "name": "Cart Tester",
+      "email": "cart.tester.1790315713385@example.com",
+      "passwordHash": "$2a$10$TzxVvNuAP/q9zCHGNnA.M..2WS85zKe/fctSu8QWEJXh30IKuUa0y"
+    },
+    {
+      "id": 14,
+      "name": "Edge Case User",
+      "email": "edge.case.1790316659426@example.com",
+      "passwordHash": "$2a$10$SvlWCtQZzeviCDtv4/oSg.mvtQKXZosH1kMKRikpZKQDEL.ZqBm5q"
+    },
+    {
+      "id": 15,
+      "name": "Test User",
+      "email": "test.user.1790316660320@example.com",
+      "passwordHash": "$2a$10$ewRIRIr/CGAr1cXFxOhxhOPMtdr3swJ4gJxdOu.P5VqYhkyFzgVSe"
+    },
+    {
+      "id": 16,
+      "name": "Cart Tester",
+      "email": "cart.tester.1790316661095@example.com",
+      "passwordHash": "$2a$10$JP6zXtb.J/1jc3n4OfvwA.fVf/JSs/UFXiYC7RGp5lO1RxRfDT11."
     }
   ],
   "carts": {
-    "1": []
+    "1": [],
+    "2": [],
+    "3": [],
+    "4": [],
+    "5": [],
+    "6": [],
+    "7": [],
+    "8": [],
+    "9": [],
+    "10": [],
+    "11": [],
+    "12": [],
+    "13": [],
+    "14": [],
+    "15": [],
+    "16": []
   },
   "orders": [
     {
@@ -362,9 +467,147 @@
       },
       "status": "placed",
       "createdAt": "2026-09-14T00:44:59.881Z"
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "items": [
+        {
+          "productId": 3,
+          "name": "Velvet Peony",
+          "price": 68.99,
+          "quantity": 1,
+          "subtotal": 68.99
+        }
+      ],
+      "total": 68.99,
+      "shipping": {
+        "name": "Samreen H",
+        "address": "hubli",
+        "city": "hubli",
+        "zip": "1245365",
+        "phone": "07019880748"
+      },
+      "status": "placed",
+      "createdAt": "2026-09-14T06:52:04.252Z"
+    },
+    {
+      "id": 3,
+      "userId": 3,
+      "items": [
+        {
+          "productId": 2,
+          "name": "Sunlit Meadow",
+          "price": 42.99,
+          "quantity": 3,
+          "subtotal": 128.97
+        }
+      ],
+      "total": 128.97,
+      "shipping": {
+        "name": "Cart Tester",
+        "address": "1 Main St",
+        "city": "Springfield",
+        "zip": "12345",
+        "phone": "555-0100"
+      },
+      "status": "placed",
+      "createdAt": "2026-09-24T12:53:18.655Z"
+    },
+    {
+      "id": 4,
+      "userId": 6,
+      "items": [
+        {
+          "productId": 2,
+          "name": "Sunlit Meadow",
+          "price": 42.99,
+          "quantity": 3,
+          "subtotal": 128.97
+        }
+      ],
+      "total": 128.97,
+      "shipping": {
+        "name": "Cart Tester",
+        "address": "1 Main St",
+        "city": "Springfield",
+        "zip": "12345",
+        "phone": "555-0100"
+      },
+      "status": "placed",
+      "createdAt": "2026-09-24T12:57:45.693Z"
+    },
+    {
+      "id": 5,
+      "userId": 10,
+      "items": [
+        {
+          "productId": 2,
+          "name": "Sunlit Meadow",
+          "price": 42.99,
+          "quantity": 3,
+          "subtotal": 128.97
+        }
+      ],
+      "total": 128.97,
+      "shipping": {
+        "name": "Cart Tester",
+        "address": "1 Main St",
+        "city": "Springfield",
+        "zip": "12345",
+        "phone": "555-0100"
+      },
+      "status": "placed",
+      "createdAt": "2026-09-24T13:05:08.445Z"
+    },
+    {
+      "id": 6,
+      "userId": 13,
+      "items": [
+        {
+          "productId": 2,
+          "name": "Sunlit Meadow",
+          "price": 42.99,
+          "quantity": 3,
+          "subtotal": 128.97
+        }
+      ],
+      "total": 128.97,
+      "shipping": {
+        "name": "Cart Tester",
+        "address": "1 Main St",
+        "city": "Springfield",
+        "zip": "12345",
+        "phone": "555-0100"
+      },
+      "status": "placed",
+      "createdAt": "2026-09-25T05:55:13.528Z"
+    },
+    {
+      "id": 7,
+      "userId": 16,
+      "items": [
+        {
+          "productId": 2,
+          "name": "Sunlit Meadow",
+          "price": 42.99,
+          "quantity": 3,
+          "subtotal": 128.97
+        }
+      ],
+      "total": 128.97,
+      "shipping": {
+        "name": "Cart Tester",
+        "address": "1 Main St",
+        "city": "Springfield",
+        "zip": "12345",
+        "phone": "555-0100"
+      },
+      "status": "placed",
+      "createdAt": "2026-09-25T06:11:01.297Z"
     }
   ],
   "nextProductId": 21,
-  "nextUserId": 2,
-  "nextOrderId": 2
+  "nextUserId": 17,
+  "nextOrderId": 8
 }
